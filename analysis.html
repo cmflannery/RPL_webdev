@@ -67,7 +67,8 @@
         </div>
         <div class="navbar-collapse collapse navbar-right">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">HOME</a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="news.html">NEWS</a></li>
             <li><a href="about.html">THE TEAM</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">DEPARTMENTS<b class="caret"></b></a>
@@ -75,15 +76,16 @@
                 <li><a href="propulsion.html">PROPULSION</a></li>
                 <li><a href="avionics.html">AVIONICS</a></li>
                 <li><a href="structures.html">STRUCTURES</a></li>
-                <li><a href="analysis.html">ANALYSIS</a></li>
+                <li><a class="active" href="analysis.html">ANALYSIS</a></li>
               </ul>
             </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">PROJECTS<b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="launchy.html">Launchy McLaunchface</a></li>
-                <li><a href="ariel.html">Ariel</a></li>
+                <li><a href="removebeforeflight.html">"Remove Before Flight"</a></li>
                 <li><a href="jetengine.html">Jet Engine</a></li>
+                <li><a href="newmemberproject.html">New Member Projects</a></li>
               </ul>
             </li>
             <li><a href="sponsors.html">SPONSORS</a></li>
@@ -93,25 +95,20 @@
     </div>
 
 	<!-- *****************************************************************************************************************
-	 BLUE WRAP
-	 ***************************************************************************************************************** -->
-	<div id="blue">
-	    <div class="container">
-			<div class="row">
-				<h3>Analysis</h3>
-			</div><!-- /row -->
-	    </div> <!-- /container -->
-	</div><!-- /blue -->
-
-	<!-- *****************************************************************************************************************
 	 TITLE & CONTENT
 	 ***************************************************************************************************************** -->
 
 	 <div class="container mtb">
 	 	<div class="row">
 		 	<div class="col-lg-8 col-lg-offset-2 centered">
-                <h2>The Analysis team performs hand calculations and computational analysis on designs from all of RPL's other teams</h2>
-		 		<p></p>
+		 	  <h2>Analysis</h2>
+		 	  <h3>Responsibilities</h3>
+		 	  	<p class="std-text">Analysis is challenging. Setting up a proper analysis requires a thorough understanding of the system design, it's expected functionality, and boundary conditions. The analysis team at RPL has the obvious goal of analyzing design and providing feedback to the designers, however, getting there is very time consuming.</p>
+		 	  <h3>The Process</h3>
+		 	  	<h4>Hand Calculations</h4>
+		 	  		<p class="std-text">The first step in analysis at RPL is performing hand calculations. The analysis engineer will setup a simple 1D or 2D representation of the problem and attempt to solve. These solutions are commonly accurate enough to drive design decisions, however not accurate enough to use as models for flight performance or engine performance. The numbers obtained through hand calculations are generally signifiantly easier to use as a logic check than those obtained through computational methods.</p>
+		 	  	<h4>Computational Methods</h4>
+		 	  		<p class="std-text">When more accurate analysis is needed, RPl performs analysis using computational methods such as Computational Fluid Dynamics (CFD) and Finite Element Analysis (FEA). The code necessary to solve these complex multidimensional problems is availabe in softare such as <a href="https://ansys.com">ANSYS</a>. The challenge in using these method is properly setting up the problem. Small changes in boundary conditions and initial conditions can result in wildly inaccurate results.</p>
 		 		<br>
 		 		<div class="hline"></div>
 		 	</div>

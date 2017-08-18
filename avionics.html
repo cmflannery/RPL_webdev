@@ -67,13 +67,14 @@
         </div>
         <div class="navbar-collapse collapse navbar-right">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">HOME</a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="news.html">NEWS</a></li>
             <li><a href="team.html">THE TEAM</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">DEPARTMENTS<b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="propulsion.html">PROPULSION</a></li>
-                <li><a href="avionics.html">AVIONICS</a></li>
+                <li><a class="active" href="avionics.html">AVIONICS</a></li>
                 <li><a href="structures.html">STRUCTURES</a></li>
                 <li><a href="analysis.html">ANALYSIS</a></li>
               </ul>
@@ -82,8 +83,9 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">PROJECTS<b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="launchy.html">Launchy McLaunchface</a></li>
-                <li><a href="ariel.html">Ariel</a></li>
+                <li><a href="removebeforeflight.html">"Remove Before Flight"</a></li>
                 <li><a href="jetengine.html">Jet Engine</a></li>
+                <li><a href="newmemberproject.html">New Member Projects</a></li>
               </ul>
             </li>
             <li><a href="sponsors.html">SPONSORS</a></li>
@@ -92,16 +94,6 @@
       </div>
     </div>
 
-	<!-- *****************************************************************************************************************
-	 BLUE WRAP
-	 ***************************************************************************************************************** -->
-	<div id="blue">
-	    <div class="container">
-			<div class="row">
-				<h3>Avionics</h3>
-			</div><!-- /row -->
-	    </div> <!-- /container -->
-	</div><!-- /blue -->
 
 	<!-- *****************************************************************************************************************
 	 TITLE & CONTENT
@@ -110,9 +102,16 @@
 	 <div class="container mtb">
 	 	<div class="row">
 		 	<div class="col-lg-8 col-lg-offset-2 centered">
-                <h2>The Avionics team designs and builds the electrical components for all of RPL's projects </h2>
-		 		<p>The propulsion team was the first team in RPL. This team started by creating the initial designs for a small liquid rocket engine; <a href="ariel.html">Ariel.</a></p>
-		 		<br>
+		 	  <h2>Avionics</h2>
+		 	  <p class="std-text">The avionics team designs all electrical systems on the vehicle. Their resonsibilities range from controlling valves to sensing acceleration to transmitting and receiving data on the ground.</p>
+		 	  <h3>Flight Computer</h3>
+		 	  <p class="std-text">The flight computer is the brain of the rocket. For suborbial vehicles, such as the ones that RPL designs, the flight computer can be relatively simple; RPL commonly uses opensource development platforms for the flight computer.</p>
+		 	  <h3>Sensing and RIOs</h3>
+		 	  <p class="std-text">In addition to the flight computer, the avionics team designs Remote Input Outputs, or RIOs. The RIOs are used to interface sensors and actuators with the flight computer. Analog signals degrade at a high rate along cables, so the RIOs are placed close to sensors all around the vehicle, sample the analog signal and communicate through digital communication protocol with the flight computer. Sensing is a major part of the workload for the avionics team. Sensors are needed for a variety of applications from high-speed pressure transducer used to detect combustion instability to accelerometers used to integrate a flight path.</p>
+		 	  <p class="std-text">Getting valid data from our tests and flights is critical to our success. While we may get lucky, and have representative simulations occasionally, unforseen issues commonly appear only through thorough testing. A failure of an engine during a test is not a complete loss if we are able to recover data from the experiment and determine a root cause for failure.</p>
+		 	  <h3>Tranmission</h3>
+		 	  <p class="std-text">Data transmission is one of the most difficult aspects of rocketry, particularly for amateurs. Commercial vehicles are able to get permits form the FCC to broadcast at frequencies and amplitudes that are unavailable to amatuers. Broadcasting a signal from a vehicle that accelerates to supersonic speeds in a fraction of a second with only a small receiver is incredibly difficult. To compound on that, <i>Launchy</i> uses a significant amount of carbon fiber which is radio opaque, meaning that we can't mount the antenna inside the vehicle. Rather, we have to put the antenna on the outside of the vehicle and expose it to extreme surface temperatures resulting from friction with the air.</p>
+		 	  <br>
 		 		<div class="hline"></div>
 		 	</div>
 	 	</div>

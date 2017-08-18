@@ -16,10 +16,14 @@
 	0. USER ADDED
 ################################################################# */
 #sponsors {
-	min-height: 100px
-	vertical-align: middle
+	min-height: 100px;
+	vertical-align: middle;
 }
 
+.std-text {
+	text-align: left;
+	text-indent: 40px;
+}
 /*	################################################################
 	1. GENERAL STRUCTURES
 ################################################################# */
@@ -165,7 +169,7 @@ a:focus {
 .demo-card-wide > .mdl-card__title {
   color: #fff;
   height: 100%;
-  background: cadetblue center / cover;
+  background-color: #002246;
 }
 .demo-card-wide > .mdl-card__menu {
   color: #fff;

@@ -25,12 +25,8 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <!--Material Design Lite-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
-    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
-    <title>Ariel-1 | RPL</title>
+    <title>RPL - About Us</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -38,7 +34,6 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -50,9 +45,20 @@
     <![endif]-->
 
     <script src="assets/js/modernizr.js"></script>
-  </head>
 
-  <body>
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-96600578-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+  </head>
 
     <!-- Fixed navbar -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -66,11 +72,12 @@
           </button>
           <a class="navbar-brand navbar-logo" href="index.html">
             <img src="assets/img/logos/ms-icon-150x150.png" class="navbar-logo" alt="RPL-logo">
-            RPL</a>
+           RPL</a>
         </div>
         <div class="navbar-collapse collapse navbar-right">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">HOME</a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li class="active"><a href="news.html">NEWS</a></li>
             <li><a href="team.html">THE TEAM</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">DEPARTMENTS<b class="caret"></b></a>
@@ -85,8 +92,9 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">PROJECTS<b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="launchy.html">Launchy McLaunchface</a></li>
-                <li><a href="ariel.html">Ariel</a></li>
+                <li><a href="removebeforeflight.html">"Remove Before Flight"</a></li>
                 <li><a href="jetengine.html">Jet Engine</a></li>
+                <li><a href="newmemberproject.html">New Member Projects</a></li>
               </ul>
             </li>
             <li><a href="sponsors.html">SPONSORS</a></li>
@@ -94,78 +102,23 @@
         </div><!--/.nav-collapse -->
       </div>
     </div>
-
-
 	<!-- *****************************************************************************************************************
-	 LANSCAPE IMAGE & TTITLE
-	 ***************************************************************************************************************** -->
-    <img src="assets/img/projects/ariel/ariel_landscape.jpg" style="width: 100%" style="height: 100%">
-    <div class="jumbotron text-center">
-      <h1>ARIEL</h1>
-    </div>
-
-	<!-- *****************************************************************************************************************
-	 CONTENT
+	 TITLE & CONTENT
 	 ***************************************************************************************************************** -->
 
-	 <div class="container mt">
+	 <div class="container mtb">
 	 	<div class="row">
-
-		 	<div class="col-lg-5 col-lg-offset-1">
-			 	<div class="spacing"></div>
-		 		<h3>ARIEL-1</h3>
-		 		<p>Ariel-1 (A1) is a 2000 lbf Liquid Oxygen, Liquid Natural Gas or Methane engine currently being designed and developed by the Rocket Propulsion Laboratory. A1’s first static fire is planned for August of 2017.</p>
-                <p>As with all RPL projects, Ariel-1 is an opensource project. Click the <i>link to source</i> on under <b>Technical Specifications</b> to the right to view all of our technical document.</p>
-                <h3>TECHNICAL OVERVIEW</h3>
-		 		<p>Ariel-1 is the first iteration of the Ariel engine. The engine is designed to use LOX/Methane, a cheap propellant combination which can be synthesized on Mars using the Sebatier reaction.</p>
-                <h4>Thrust Chamber Assembly (TCA)</h4>
-                <h4>Augmented Spark Plug Ingiter</h4>
-                <h4>Coaxial Swirl Injector</h4>
-		 	</div>
-
-      <div class="col-lg-4 col-lg-offset-1">
-        <div class="demo-card-wide mdl-card mdl-shadow--2dp">
-          <div class="mdl-card__title">
-            <h2 class="mdl-card__title-text">Technical Specifications</h2>
-          </div>
-          <div class="mdl-card__supporting-text">
-            <div class="hline"></div>
-            <p><b>Thrust:</b> 2000 lbf</p>
-            <p><b>Propellants:</b> LOX/LNG</p>
-            <p><b>Material:</b> Inconel 718</p>
-            <p><b>Link to Source:</b> <a href="https://github.com/rocketproplab/Ariel-1" target="_blank">https://github.com/rocketproplab/Ariel-1</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-   </div>
-
-    <div class="container" style="padding-bottom: 50px; padding-top: 15px">
-      <div class="col-lg-10 col-lg-offset-1 centered">
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-          </ol>
-
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-            <div class="item active">
-              <img src="assets/img/projects/ariel/tca_cad.jpg" alt="">
-            </div>
-            <div class="item">
-              <img src="assets/img/projects/ariel/cooling_carousel.jpg" alt="">
-            </div>
-            <div class="item">
-              <img src="assets/img/projects/ariel/TCA_Analysis_Pressure.PNG" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
+		 	<div class="col-lg-8 col-lg-offset-2 centered">
+		 		<h2>News!</h2>
+				<p style="text-align:left; text-indent:40px">This page is going to include a bunch of stuff that we think is interesting and worth sharing, but that doesn't fit in on any of the other pages. Please excuse the poor formatting to follow.</p>
+				
+				<! --/Update: 8/17/2017 -->
+				<h3>Github</h3>
+				<p style="text-align:left; text-indent:40px">RPL is using github for a significant portion of our files. All code is stored in git repos hosted on github and most of our calculations are done in <a href="https://jupyter.com">Jupyter Notebooks</a>. All of the content we post to github is open source. Checkout our github acct here: <a href="https://github.com/rocketproplab">github/rocketproplab</a></p>
+				<p style="text-align:left; text-indent:40px">One particularly interesting/useful repo is the <a href="https://github.com/rocketproplab/Guides">Guides repo</a>. This repository will be continuously updated with Markdown and python based tutorials on how to do a bunch of different things. Genereally, the tutorials are posted in Jupyter Notebooks, which render nicely in a desktop browser.</p>
+			</div>
+	 	</div>
+	 </div><! --/container -->
 
      <!-- *****************************************************************************************************************
       FOOTER
@@ -297,18 +250,5 @@
 	});
 })(jQuery);
 </script>
-
-<!-- Google Analytics -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-96600578-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
   </body>
 </html>

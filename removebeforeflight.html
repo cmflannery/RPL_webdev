@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
-    <title>Jet Engine | RPL</title>
+    <title>Remove Before Flight | RPL</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -71,7 +71,6 @@
         <div class="navbar-collapse collapse navbar-right">
           <ul class="nav navbar-nav">
             <li><a href="index.html">HOME</a></li>
-            <li><a href="news.html">NEWS</a></li>
             <li><a href="team.html">THE TEAM</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">DEPARTMENTS<b class="caret"></b></a>
@@ -86,7 +85,7 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">PROJECTS<b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="launchy.html">Launchy McLaunchface</a></li>
-                <li><a href="removebeforeflight.html">"Remove Before Flight"</a></li>
+                <li><a class="active" href="removebeforeflight.html">"Remove Before Flight"</a></li>
                 <li><a href="jetengine.html">Jet Engine</a></li>
                 <li><a href="newmemberproject.html">New Member Projects</a></li>
               </ul>
@@ -99,11 +98,9 @@
 
 
 	<!-- *****************************************************************************************************************
-	 LANDSCAPE IMAGE & TITLE
+	 LANSCAPE IMAGE & TTITLE
 	 ***************************************************************************************************************** -->
-    <div class="jumbotron text-center" style="padding-top:90px">
-      <h1>JET ENGINE</h1>
-    </div>
+      <img style="display: block; margin:auto; width:30%; padding-top:90px" src="assets/img/projects/ariel/RemoveBeforeFlight.jpg">
 
 	<!-- *****************************************************************************************************************
 	 CONTENT
@@ -114,11 +111,11 @@
 
 		 	<div class="col-lg-5 col-lg-offset-1">
 			 	<div class="spacing"></div>
-		 		<h4>JET ENGINE</h4>
-		 		<p>The Rocket Propulsion Laboratory is designing a small turbofan engine that will be used to rapidly characterize the performance of biofuels. The engine will initially be tested and calibrated using Jet   A-1 in order to provide a baseline to against which biofuel variations will be compared.</p>
-		 		<h4>Technical Overview
-                </h4>
-		 		<p>RPL's currently unnamed jet engine is designed to increase the development velocity of biofueled jet engines. Our team believes that biofueled engines are well within the technical capabilities of our time. We hope to contribute to the proliferation of such engines by creating a platform for rapid characterization and iteration of biofuels.</p>
+		 		<h3>REMOVE BEFORE FLIGHT</h3>
+		 		<p>REMOVE BEFORE FLIGHT (RBF-1) is a 2000 lbf Liquid Oxygen, Liquid Natural Gas or Methane engine currently being designed and developed by the Rocket Propulsion Laboratory. A1’s first static fire is planned for August of 2017.</p>
+                <p>As with all RPL projects, RBF-1 is an opensource project. Click the <i>link to source</i> on under <b>Technical Specifications</b> to the right to view all of our technical document.</p>
+                <h3>TECHNICAL OVERVIEW</h3>
+		 		<p>RBF-1 is the first iteration of this engine design. The engine is designed to use LOX/Methane, a cheap propellant combination which can be synthesized on Mars using the Sebatier reaction.</p>
 		 	</div>
 
       <div class="col-lg-4 col-lg-offset-1">
@@ -128,13 +125,27 @@
           </div>
           <div class="mdl-card__supporting-text">
             <div class="hline"></div>
-            <p><b>Thrust:</b> TBD</p>
-            <p><b>Link to Source:</b> <a href="https://github.com/rocketproplab/jetengine" target="_blank">https://github.com/rocketproplab/jetengine</a></p>
+            <p><b>Thrust:</b> 1000 lbf</p>
+            <p><b>Propellants:</b> LOX/LNG</p>
+			<p><b>Chamber Pressure:</b> 300 psi</p>
+			<p><b>Specific Impulse:</b> 288 s</p>
+			<p><b>Characteristic Velocity (c*):</b> 5929 ft/s</p>
+			<p><strong>Material:</strong> Inconel 718</p>
+			<p><strong>Link to github repo:</strong>&nbsp;<a href="https://github.com/rocketproplab/Remove-Before-Flight" target="_blank">Remove-Before-Flight</a></p>
           </div>
         </div>
       </div>
-    </div>
-   </div>
+	</div>
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-1">
+			  <h3>Some Cool Things</h3>
+			  <h4>Ignition</h4>
+				<p style="text-align:left; text-indent:40px">The vast majority of liquid-propellant engines developed at the collegiate level use small solid-propellant motors thrust up the chamber of the engine for ignition. While this method is simple, the flame can by extinguished before the propellants ignite. For RBF, we decided to use an Augmented Spark Igniter. This is the same type of igniter used in the SSME or RS-25. This method uses a small spark plug at the back of small igition tube to create a pilot flame which is subsequently used to ignite the main combustion chamber. This method is defintiely more challenging, but we are confident that the results will prove worth while.</p>
+				<h4>Injection</h4>
+				<p style="text-align: left; text-indent: 40px">Yet another area where we decided to pursue a more challenging option is in injection. Injection is one of the most important aspects of engine efficiency. The efficiency of an engine is very nearly directly proportional to the efficiency of injection. Two goals that we aimed for in our design were efficient mixing and throttleablility. In 2018-2019, RPL will begin working on the second revision of Remove Before Flight, RBF-2. RBF-2 will be a slightly larger engine with the ability to throttle and vector its thrust. By designing with this in mind, the current RPL members are preparing for success for years to come.</p>
+		  </div>
+	   </div>
+	</div>
 
     <div class="container" style="padding-bottom: 50px; padding-top: 15px">
       <div class="col-lg-10 col-lg-offset-1 centered">
@@ -149,18 +160,19 @@
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
             <div class="item active">
-              <img src="assets/img/projects/jetengine/jetEngineSchematic.jpg" alt="">
+              <img src="assets/img/projects/ariel/tca_cad.jpg" alt="">
             </div>
             <div class="item">
-              <img src="assets/img/projects/jetengine/jetEngineSchematic.jpg" alt="">
+              <img src="assets/img/projects/ariel/cooling_carousel.jpg" alt="">
             </div>
             <div class="item">
-              <img src="assets/img/projects/jetengine/jetEngineSchematic.jpg" alt="">
+              <img src="assets/img/projects/ariel/TCA_Analysis_Pressure.PNG" alt="">
             </div>
           </div>
-        </div><! --/Carousel -->
+        </div>
       </div>
     </div>
+
 
      <!-- *****************************************************************************************************************
       FOOTER
