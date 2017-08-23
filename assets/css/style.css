@@ -32,12 +32,20 @@
 author.updates{
 	display: block;
 	font-style: italic;
-	font-weight: bold;
+	font-size: 12px;
+}
+p.updates{
+	text-align: left;
+	text-indent: 40px;
 }
 
 date.updates{
 	display: block;
-	font-size: 20px;
+	font-size: 15px;
+}
+
+.update-navigation{
+	display: block;
 }
 /*	################################################################
 	1. GENERAL STRUCTURES
