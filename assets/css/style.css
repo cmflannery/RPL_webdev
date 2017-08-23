@@ -28,6 +28,17 @@
 .update-image{
 	padding-top: 40px;
 }
+
+author.updates{
+	display: block;
+	font-style: italic;
+	font-weight: bold;
+}
+
+date.updates{
+	display: block;
+	font-size: 20px;
+}
 /*	################################################################
 	1. GENERAL STRUCTURES
 ################################################################# */
