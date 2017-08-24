@@ -61,7 +61,7 @@ body {
 	height: 100%;
 	color: #232323;
 	font-family: 'Lato', sans-serif;
-	font-weight: 400;
+	font-weight: 200;
 	}
 
 h1, h2, h3, h4, h5, h6 {
@@ -120,8 +120,8 @@ a:focus {
 	BOOTSTRAP MODIFICATIONS & TWEAKS
 ################################################################# */
 .navbar {
-	min-height: 70px;
-	padding-top: 10px;
+	min-height: 30px;
+	padding-top: 0px;
 	margin-bottom: 0px;
 }
 
@@ -135,11 +135,11 @@ a:focus {
 .navbar-brand {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 900;
-	height: 70px;
+	height: 50px;
 }
 
 .navbar-nav {
-  margin-top: 8px;
+  margin-top: 0px;
 }
 
 .navbar-toggle {
@@ -153,8 +153,8 @@ a:focus {
 
 .navbar-default .navbar-nav > li > a {
 	color: white;
-	font-weight: 700;
-	font-size: 12px;
+	font-weight: 400;
+	font-size: 11px;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -262,7 +262,7 @@ a:focus {
 }
 
 .mtb {
-	margin-top: 80px;
+	margin-top: 40px;
 	margin-bottom: 80px;
 }
 
@@ -279,7 +279,7 @@ a:focus {
 }
 
 .hline-w {
-	border-bottom: 2px solid #ffffff;
+	border-bottom: 2px solid #000000;
 	margin-bottom: 25px;
 }
 /*	################################################################
@@ -299,7 +299,7 @@ a:focus {
 	position: relative;
 	background-color: #FFF;
 	min-height: 100px;
-	padding-top: 70px;
+	padding-top: 40px;
 	padding-bottom: 0px;
 	text-align: center;
 }
@@ -428,20 +428,20 @@ a:focus {
 #footerwrap {
 	padding-top: 60px;
 	padding-bottom: 60px;
-	background: #232323;
+	background-color: #F3F3F3;
 }
 
 #footerwrap p {
-	color: #bfc9d3;
+	color: #262626;
 }
 
 #footerwrap h4 {
-	color: white;
+	color: black;
 }
 
 #footerwrap i {
 	font-size: 30px;
-	color: #bfc9d3;
+	color: black;
 	padding-right: 25px;
 }
 
@@ -456,10 +456,10 @@ a:focus {
 
 #blue {
 	background: #353535;
-	margin-top: 60px;
-	margin-bottom: 60px;
-	padding-top: 25px;
-	padding-bottom: 25px;
+	margin-top: 51px;
+	margin-bottom: 50px;
+	padding-top: 8px;
+	padding-bottom: 15px;
 }
 
 #blue h3 {
